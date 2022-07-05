@@ -1,4 +1,4 @@
-export default function displayContact() {
+const displayContact = () => {
   const contactLink = document.getElementById('contact-link');
 
   const addButtonContainer = document.getElementById('add-btn-container');
@@ -10,4 +10,5 @@ export default function displayContact() {
     addButtonContainer.style.display = 'none';
     contact.style.display = 'block';
   });
-}
+};
+export default displayContact;

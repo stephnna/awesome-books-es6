@@ -1,4 +1,4 @@
-export default function addBook() {
+const addBook = () => {
   const addNewLink = document.getElementById('add-link');
 
   const addButtonContainer = document.getElementById('add-btn-container');
@@ -10,4 +10,5 @@ export default function addBook() {
     addButtonContainer.style.display = 'block';
     contact.style.display = 'none';
   });
-}
+};
+export default addBook;
